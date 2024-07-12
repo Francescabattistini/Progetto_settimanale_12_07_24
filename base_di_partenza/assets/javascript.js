@@ -9,8 +9,8 @@ window.addEventListener("scroll", function () {
     btn.style.backgroundColor = "#181919";
   }
 });
-// qui toglie la m
-/* const mElements = document.getElementsByTagName("g");
+
+const mElements = document.getElementsByTagName("g");
 const mElementsFiltered = Array.from(mElements).filter(
   (element) => element.getAttribute("opacity") === "0"
 );
@@ -26,4 +26,3 @@ const mAnimation = setInterval(() => {
     currentElement.setAttribute("opacity", 0);
   }
 }, 10);
- */
