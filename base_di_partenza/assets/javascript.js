@@ -9,14 +9,13 @@ window.addEventListener("scroll", function () {
     btn.style.backgroundColor = "#181919";
   }
 });
-
-const mElements = document.getElementsByTagName("g");
+// qui toglie la m
+/* const mElements = document.getElementsByTagName("g");
 const mElementsFiltered = Array.from(mElements).filter(
   (element) => element.getAttribute("opacity") === "0"
 );
 mElementsFiltered.shift();
 
-// Funzione che anima le m
 const mAnimation = setInterval(() => {
   const randomNum = Math.floor(Math.random() * mElementsFiltered.length);
   const currentElement = mElementsFiltered[randomNum];
@@ -27,3 +26,4 @@ const mAnimation = setInterval(() => {
     currentElement.setAttribute("opacity", 0);
   }
 }, 10);
+ */
