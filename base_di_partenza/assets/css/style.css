@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+}
+nav {
+  padding: 1em;
+  border-bottom: 1px solid black;
+}
+.gold {
+  width: 100%;
+  background-color: #ffc017;
+}
